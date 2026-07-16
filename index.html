@@ -6,6 +6,14 @@
     <title>imight-portfolio</title>
     <link rel="icon" href="/imight-portfolio/favicon.ico">
     <link rel="stylesheet" href="/imight-portfolio/assets/styles-B8CdwjTe.css">
+    <script>
+      // Ensure TanStack Start knows the correct basepath on GitHub Pages
+      window.__TSS_START_OPTIONS__ = window.__TSS_START_OPTIONS__ || {};
+      window.__TSS_START_OPTIONS__.serializationAdapters = window.__TSS_START_OPTIONS__.serializationAdapters || [];
+      window.__TSS_START_OPTIONS__.basepath = '/imight-portfolio';
+      // disable SSR flag to avoid server-side-only checks in client runtime
+      window.__TSS_START_OPTIONS__.defaultSsr = false;
+    </script>
   </head>
   <body>
     <div id="root"></div>
