@@ -1,4 +1,4 @@
-{   
+{
   "name": "tanstack_start_ts",
   "private": true,
   "sideEffects": false,
@@ -77,17 +77,11 @@
     "eslint-plugin-prettier": "^5.2.6",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
-    "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
     "nitro": "3.0.260603-beta",
     "prettier": "^3.7.3",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.56.1",
     "vite": "^8.0.16"
-  },
-  "allowScripts": {
-    "esbuild@0.25.12": true
-  }"homepage": "https://imightsam123.github.io/imight-portfolio"
-  "predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
+  }
 }
